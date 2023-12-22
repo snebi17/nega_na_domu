@@ -40,7 +40,7 @@ export default function Contact() {
 						</p>
 						<p className="flex items-center">
 							<ClockIcon className="w-8 h-8 mr-4"></ClockIcon>
-							po dogovoru
+							Vse dni v tednu od 7:00 do 22:00
 						</p>
 					</div>
 				</div>
