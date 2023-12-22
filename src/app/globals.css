@@ -5,6 +5,7 @@
 :root {
   --foreground-rgb: #BBAB8C;
   --background-start-rgb: #FAEED1;
+  
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,4 +18,16 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: var(--background-start-rgb);
+}
+
+.swiper-pagination-bullet-active {
+  background-color: theme('colors.beigeCream') !important;
+}
+
+header {
+  z-index: 2!important;
+}
+
+.swiper {
+  z-index: 1!important;
 }
