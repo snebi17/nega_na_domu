@@ -32,7 +32,8 @@ export default function Contact() {
 						</p>
 						<p className="flex items-center my-4">
 							<ChatBubbleBottomCenterTextIcon className="w-8 h-8 mr-4"></ChatBubbleBottomCenterTextIcon>
-							info@srecnaleta.si
+							{/* info@srecnaleta.si */}
+							srecna.leta@gmail.com
 						</p>
 						<p className="flex items-center mb-4">
 							<MapPinIcon className="w-8 h-8 mr-4"></MapPinIcon>
