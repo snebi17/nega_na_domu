@@ -36,8 +36,8 @@ export default function Reviews() {
 		<section className="w-full h-full bg-opaqueWhite" id="mnenja">
 			<div className="container flex flex-col mx-auto align-center p-8 md:p-32">
 				<div className="flex mb-8">
-					<div className="hidden md:flex flex-grow bg-black my-auto h-1 mr-4"></div>
-					<h1 className="text-3xl font-bold">
+					<div className="flex-grow bg-black my-auto h-[2px] mr-4"></div>
+					<h1 className="text-xl md:text-2xl lg:text-3xl font-bold">
 						Kaj pravijo naše stranke?
 					</h1>
 				</div>
@@ -65,10 +65,10 @@ export default function Reviews() {
 					{clients.map((client, index) => (
 						<SwiperSlide key={index}>
 							<div className="flex flex-col justify-center text-center">
-								<h1 className="text-xl font-bold">
+								<h1 className="text-lg md:text-xl lg:text-2xl font-bold">
 									{client.name}, {client.location}
 								</h1>
-								<p className="text-lg font-light">
+								<p className="text-md md:text-lg lg:text-xl font-light pt-2">
 									{client.review}
 								</p>
 							</div>

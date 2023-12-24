@@ -4,17 +4,17 @@ import Logo from "../../public/images/Logo.svg";
 
 export default function Header() {
 	return (
-		<header className="w-screen h-24 flex justify-around items-center fixed bg-opaqueWhite">
+		<header className="w-screen h-16 md:h-20 lg:h-28 flex justify-around items-center fixed bg-opaqueWhite">
 			<div className="flex items-center">
 				<Image src={Logo} className="w-12 h-12" alt="Logo"></Image>
 				<Link
 					href="/"
-					className="uppercase text-xl md:text-3xl cursor-pointer"
+					className="uppercase text-xl md:text-2xl lg:text-3xl cursor-pointer"
 				>
 					<strong>Srečna</strong> leta
 				</Link>
 			</div>
-			<ul className="hidden md:flex uppercase text-lg">
+			<ul className="hidden md:flex uppercase text-xl lg:text-2xl">
 				<Link
 					href="/#o-nas"
 					className="hover:text-cream duration-200 ease-in-out"
@@ -41,7 +41,7 @@ export default function Header() {
 				</Link>
 				<Link
 					href="/storitve"
-					className="hover:text-cream duration-200 ease-in-out font-bold"
+					className="hover:text-cream duration-200 ease-in-out font-bold active:text-beige focus:outline-none"
 				>
 					Cenik
 				</Link>

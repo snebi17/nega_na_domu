@@ -14,13 +14,15 @@ export default function Contact() {
 			className="w-full h-1/2 flex flex-col md:flex-row p-8 pt-4 md:p-32 md:pt-16 md:gap-16 bg-opaqueWhite"
 			id="kontakt"
 		>
-			<div className="container flex flex-col mx-auto justify-center">
+			<div className="container flex flex-col">
 				<div className="flex mb-4">
-					<div className="flex flex-grow bg-black my-auto h-1 mr-4"></div>
-					<h1 className="text-3xl font-bold text-right">Kontakt</h1>
+					<div className="flex flex-grow bg-black my-auto h-[2px] mr-4"></div>
+					<h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-right">
+						Kontakt
+					</h1>
 				</div>
 				<div className="flex flex-col md:flex-row md:justify-between mb-4">
-					<div className="w-full h-content flex flex-col items-left justify-center text-lg">
+					<div className="w-full h-content flex flex-col items-left justify-center text-md md:text-lg lg:text-xl">
 						<p className="flex items-center">
 							<PhoneIcon className="w-8 h-8 mr-4"></PhoneIcon>
 							<a

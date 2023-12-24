@@ -4,18 +4,15 @@ import Picture from "../../public/images/about.png";
 export default function About() {
 	return (
 		<section
-			className="w-full h-fit flex flex-col md:flex-row md:gap-8 items-center p-8 md:p-32 bg-beigeCream"
+			className="w-full h-fit flex flex-col md:gap-8 items-center p-8 md:p-32 bg-beigeCream"
 			id="o-nas"
 		>
-			<Image
-				src={Picture}
-				alt="image"
-				className="w-full h-full md:w-1/3 md:h-fit order-2 md:order-1"
-			></Image>
-			<div className="container flex flex-col justify-center text-lg text-transparentWhite order-1 md:order-2">
+			<div className="container flex flex-col justify-center text-md md:text-lg lg:text-xl text-transparentWhite">
 				<div className="flex mb-4">
-					<h1 className="text-3xl font-bold text-right">O nas</h1>
-					<div className="flex flex-grow bg-transparentWhite my-auto h-1 ml-4"></div>
+					<h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-right">
+						O nas
+					</h1>
+					<div className="flex flex-grow bg-transparentWhite my-auto h-[2px] ml-4"></div>
 				</div>
 				<p className="p-3 pl-0">
 					Kdo sem in kako sem prišla do ideje <strong>SREČNA </strong>
@@ -49,6 +46,11 @@ export default function About() {
 					uporabnikov, saj mi je njihovo dobro počutje na prvem mestu.
 				</p>
 			</div>
+			<Image
+				src={Picture}
+				alt="image"
+				className="w-full h-full md:w-1/2"
+			></Image>
 		</section>
 	);
 }

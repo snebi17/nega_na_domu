@@ -1,4 +1,3 @@
-import Pricelist from "./Pricelist";
 import Services from "./Services";
 
 import Image from "next/image";
@@ -9,11 +8,10 @@ export default function page() {
 		<section className="flex flex-col">
 			<Image
 				src={Banner}
-				className="w-full h-96 mt-24 object-cover object-left md:object-center"
+				className="w-full h-96 md:mt-24 object-cover object-left"
 				alt="Banner"
 			></Image>
 			<Services></Services>
-			{/* <Pricelist></Pricelist> */}
 		</section>
 	);
 }
