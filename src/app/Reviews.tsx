@@ -47,6 +47,14 @@ export default function Reviews() {
 							slidesPerView: 3,
 							spaceBetween: 20,
 						},
+						768: {
+							slidesPerView: 3,
+							spaceBetween: 20,
+						},
+						1024: {
+							slidesPerView: 3,
+							spaceBetween: 20,
+						},
 					}}
 					slidesPerView={1}
 					pagination={{ type: "bullets" }}

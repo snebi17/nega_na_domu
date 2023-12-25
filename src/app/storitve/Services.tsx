@@ -16,10 +16,13 @@ export default function Services() {
 						</h1>
 						<div className="flex justify-between w-full font-light">
 							<p>Lažja oblika</p>
+							<div className="flex-1 border border-0 border-b-2 border-dotted mb-1 mx-2"></div>
+
 							<span className="font-bold">18€</span>
 						</div>
 						<div className="flex justify-between w-full font-light">
 							<p>Težja oblika</p>
+							<div className="flex-1 border border-0 border-b-2 border-dotted mb-1 mx-2"></div>
 							<span className="font-bold">20€</span>
 						</div>
 					</div>
@@ -28,6 +31,7 @@ export default function Services() {
 						<h1 className="font-bold">Spremstvo in družabništvo</h1>
 						<div className="flex justify-between w-full font-light">
 							<p>Storitev</p>
+							<div className="flex-1 border border-0 border-b-2 border-dotted mb-1 mx-2"></div>
 							<span className="font-bold">17€</span>
 						</div>
 					</div>
@@ -36,6 +40,7 @@ export default function Services() {
 						<h1 className="font-bold">Pomoč v gospodinjstvu</h1>
 						<div className="flex justify-between w-full font-light">
 							<p>Storitev</p>
+							<div className="flex-1 border border-0 border-b-2 border-dotted mb-1 mx-2"></div>
 							<span className="font-bold">17€</span>
 						</div>
 					</div>
@@ -44,6 +49,7 @@ export default function Services() {
 						<h1 className="font-bold">Fizioterapija na domu</h1>
 						<div className="flex justify-between w-full font-light">
 							<p>Storitev</p>
+							<div className="flex-1 border border-0 border-b-2 border-dotted mb-1 mx-2"></div>
 							<span className="font-bold">35€-45€</span>
 						</div>
 					</div>
@@ -54,6 +60,7 @@ export default function Services() {
 						</h1>
 						<div className="flex justify-between w-full font-light">
 							<p>Storitev</p>
+							<div className="flex-1 border border-0 border-b-2 border-dotted mb-1 mx-2"></div>
 							<span className="font-bold">45€</span>
 						</div>
 					</div>
@@ -62,10 +69,12 @@ export default function Services() {
 						<h1 className="font-bold">Masaža in vadba na domu</h1>
 						<div className="flex justify-between w-full font-light">
 							<p>Masaža</p>
+							<div className="flex-1 border border-0 border-b-2 border-dotted mb-1 mx-2"></div>
 							<span className="font-bold">50€</span>
 						</div>
 						<div className="flex justify-between w-full font-light">
 							<p>Vadba za starejše</p>
+							<div className="flex-1 border border-0 border-b-2 border-dotted mb-1 mx-2"></div>
 							<span className="font-bold">35€</span>
 						</div>
 					</div>
@@ -74,6 +83,7 @@ export default function Services() {
 						<h1 className="font-bold">Manikura na domu</h1>
 						<div className="flex justify-between w-full font-light">
 							<p>Storitev</p>
+							<div className="flex-1 border border-0 border-b-2 border-dotted mb-1 mx-2"></div>
 							<span className="font-bold">20€</span>
 						</div>
 					</div>
@@ -82,6 +92,7 @@ export default function Services() {
 						<h1 className="font-bold">Frizerske storitve</h1>
 						<div className="flex justify-between w-full font-light">
 							<p>Storitev</p>
+							<div className="flex-1 border border-0 border-b-2 border-dotted mb-1 mx-2"></div>
 							<span className="font-bold">25€-60€</span>
 						</div>
 					</div>

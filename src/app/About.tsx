@@ -4,10 +4,10 @@ import Picture from "../../public/images/about.png";
 export default function About() {
 	return (
 		<section
-			className="w-full h-fit flex flex-col md:gap-8 items-center p-8 md:p-32 bg-beigeCream"
+			className="w-full h-fit flex flex-col xl:flex-row md:gap-8 items-center p-8 md:p-32 bg-beigeCream"
 			id="o-nas"
 		>
-			<div className="container flex flex-col justify-center text-md md:text-lg lg:text-xl text-transparentWhite">
+			<div className="container flex flex-col justify-center text-md md:text-lg lg:text-xl text-transparentWhite xl:order-2">
 				<div className="flex mb-4">
 					<h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-right">
 						O nas
@@ -49,7 +49,7 @@ export default function About() {
 			<Image
 				src={Picture}
 				alt="image"
-				className="w-full h-full md:w-1/2"
+				className="w-full h-full md:w-1/2 xl:order-2"
 			></Image>
 		</section>
 	);
