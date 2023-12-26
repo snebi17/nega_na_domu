@@ -35,11 +35,22 @@ export default function Contact() {
 						<p className="flex items-center my-4">
 							<ChatBubbleBottomCenterTextIcon className="w-8 h-8 mr-4"></ChatBubbleBottomCenterTextIcon>
 							{/* info@srecnaleta.si */}
-							srecna.leta@gmail.com
+							<a
+								href="mailto:srecna.leta@gmail.com"
+								className="hover:text-cream duration-200 ease-in-out"
+							>
+								srecna.leta@gmail.com
+							</a>
 						</p>
 						<p className="flex items-center mb-4">
 							<MapPinIcon className="w-8 h-8 mr-4"></MapPinIcon>
-							Trg komandanta Staneta 8
+							<a
+								href="https://maps.app.goo.gl/j48wi7cpqkfELKo89"
+								target="_blank"
+								className="hover:text-cream duration-200 ease-in-out"
+							>
+								Trg komandanta Staneta 8
+							</a>
 						</p>
 						<p className="flex items-center">
 							<ClockIcon className="w-8 h-8 mr-4"></ClockIcon>
