@@ -10,6 +10,7 @@ export default function Landing() {
 				alt="Background"
 				src={Background}
 				style={{ filter: "brightness(50%)" }}
+				priority={true}
 			></Image>
 			<div className="absolute left-8 md:left-32 text-opaqueWhite">
 				<h1 className="text-3xl md:text-4xl lg:text-5xl font-black">

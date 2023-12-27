@@ -10,6 +10,7 @@ export default function page() {
 				src={Banner}
 				className="w-full h-96 md:mt-24 object-cover object-left"
 				alt="Banner"
+				priority={true}
 			></Image>
 			<Services></Services>
 		</section>
