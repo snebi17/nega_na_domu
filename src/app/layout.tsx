@@ -11,6 +11,8 @@ export const metadata: Metadata = {
 
 import Header from "./Header";
 import Footer from "./Footer";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function RootLayout({
 	children,
@@ -20,8 +22,10 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={inter.className}>
+				<SpeedInsights />
 				<Header></Header>
 				{children}
+				<Analytics />
 				<Footer></Footer>
 			</body>
 		</html>

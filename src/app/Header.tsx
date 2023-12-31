@@ -15,45 +15,55 @@ export default function Header() {
 				</Link>
 			</div>
 			<ul className="hidden md:flex uppercase text-xl lg:text-2xl">
-				<Link
-					href="/#o-nas"
-					className="hover:text-cream duration-200 ease-in-out active:text-beige"
-				>
-					O nas
-				</Link>
-				<Link
-					href="/#mnenja"
-					className="mx-4 hover:text-cream duration-200 ease-in-out active:text-beige"
-				>
-					Mnenja strank
-				</Link>
-				<Link
-					href="/#lokacija"
-					className="hover:text-cream duration-200 ease-in-out active:text-beige"
-				>
-					Lokacija
-				</Link>
-				<Link
-					href="/#kontakt"
-					className="ml-4 mr-8 hover:text-cream duration-200 ease-in-out active:text-beige"
-				>
-					Kontakt
-				</Link>
+				<li>
+					<Link
+						href="/#o-nas"
+						className="hover:text-cream duration-200 ease-in-out active:text-beige"
+					>
+						O nas
+					</Link>
+				</li>
+				<li>
+					<Link
+						href="/#mnenja"
+						className="mx-4 hover:text-cream duration-200 ease-in-out active:text-beige"
+					>
+						Mnenja strank
+					</Link>
+				</li>
+				<li>
+					<Link
+						href="/#lokacija"
+						className="hover:text-cream duration-200 ease-in-out active:text-beige"
+					>
+						Lokacija
+					</Link>
+				</li>
+				<li>
+					<Link
+						href="/#kontakt"
+						className="ml-4 mr-8 hover:text-cream duration-200 ease-in-out active:text-beige"
+					>
+						Kontakt
+					</Link>
+				</li>
+				<li>
+					<Link
+						href="/storitve"
+						className="hover:text-cream duration-200 ease-in-out font-bold active:text-beige"
+					>
+						Cenik
+					</Link>
+				</li>
+			</ul>
+			<div className="flex md:hidden uppercase text-md">
 				<Link
 					href="/storitve"
 					className="hover:text-cream duration-200 ease-in-out font-bold active:text-beige"
 				>
 					Cenik
 				</Link>
-			</ul>
-			<ul className="flex md:hidden uppercase text-md">
-				<Link
-					href="/storitve"
-					className="hover:text-cream duration-200 ease-in-out font-bold active:text-beige"
-				>
-					Cenik
-				</Link>
-			</ul>
+			</div>
 		</header>
 	);
 }

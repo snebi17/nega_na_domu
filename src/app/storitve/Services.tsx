@@ -18,7 +18,7 @@ export default function Services() {
 							<p>Lažja oblika</p>
 							<div className="flex-1 border border-0 border-b-2 border-dotted mb-1 mx-2"></div>
 
-							<span className="font-bold">18€</span>
+							<span className="font-medium">18€</span>
 						</div>
 						<div className="flex justify-between w-full font-light text-md md:text-lg lg:text-xl">
 							<p>Težja oblika</p>
