@@ -8,7 +8,7 @@ export default function Services() {
 					</h1>
 					<div className="flex-grow bg-black my-auto h-[2px] ml-4"></div>
 				</div>
-				<div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-2 md:gap-4 text-lg md:text-xl lg:text-2xl">
+				<div className="flex flex-col text-lg md:text-xl lg:text-2xl">
 					<div className="flex flex-col p-3 pl-0">
 						<small className="text-blue">01</small>
 						<h1 className="font-bold">
@@ -23,7 +23,7 @@ export default function Services() {
 						<div className="flex justify-between w-full font-light text-md md:text-lg lg:text-xl">
 							<p>Težja oblika</p>
 							<div className="flex-1 border border-0 border-b-2 border-dotted mb-1 mx-2"></div>
-							<span className="font-bold">20€</span>
+							<span className="font-medium">20€</span>
 						</div>
 					</div>
 					<div className="flex flex-col p-3 pl-0">
@@ -32,7 +32,7 @@ export default function Services() {
 						<div className="flex justify-between w-full font-light text-md md:text-lg lg:text-xl">
 							<p>Storitev</p>
 							<div className="flex-1 border border-0 border-b-2 border-dotted mb-1 mx-2"></div>
-							<span className="font-bold">17€</span>
+							<span className="font-medium">17€</span>
 						</div>
 					</div>
 					<div className="flex flex-col p-3 pl-0">
@@ -41,7 +41,7 @@ export default function Services() {
 						<div className="flex justify-between w-full font-light text-md md:text-lg lg:text-xl">
 							<p>Storitev</p>
 							<div className="flex-1 border border-0 border-b-2 border-dotted mb-1 mx-2"></div>
-							<span className="font-bold">17€</span>
+							<span className="font-medium">17€</span>
 						</div>
 					</div>
 					<div className="flex flex-col p-3 pl-0">
@@ -50,7 +50,7 @@ export default function Services() {
 						<div className="flex justify-between w-full font-light text-md md:text-lg lg:text-xl">
 							<p>Storitev</p>
 							<div className="flex-1 border border-0 border-b-2 border-dotted mb-1 mx-2"></div>
-							<span className="font-bold">35€-45€</span>
+							<span className="font-medium">35€-45€</span>
 						</div>
 					</div>
 					<div className="flex flex-col p-3 pl-0">
@@ -61,7 +61,7 @@ export default function Services() {
 						<div className="flex justify-between w-full font-light text-md md:text-lg lg:text-xl">
 							<p>Storitev</p>
 							<div className="flex-1 border border-0 border-b-2 border-dotted mb-1 mx-2"></div>
-							<span className="font-bold">45€</span>
+							<span className="font-medium">45€</span>
 						</div>
 					</div>
 					<div className="flex flex-col p-3 pl-0">
@@ -70,12 +70,12 @@ export default function Services() {
 						<div className="flex justify-between w-full font-light text-md md:text-lg lg:text-xl">
 							<p>Masaža</p>
 							<div className="flex-1 border border-0 border-b-2 border-dotted mb-1 mx-2"></div>
-							<span className="font-bold">50€</span>
+							<span className="font-medium">50€</span>
 						</div>
 						<div className="flex justify-between w-full font-light text-md md:text-lg lg:text-xl">
 							<p>Vadba za starejše</p>
 							<div className="flex-1 border border-0 border-b-2 border-dotted mb-1 mx-2"></div>
-							<span className="font-bold">35€</span>
+							<span className="font-medium">35€</span>
 						</div>
 					</div>
 					<div className="flex flex-col p-3 pl-0">
@@ -84,7 +84,7 @@ export default function Services() {
 						<div className="flex justify-between w-full font-light text-md md:text-lg lg:text-xl">
 							<p>Storitev</p>
 							<div className="flex-1 border border-0 border-b-2 border-dotted mb-1 mx-2"></div>
-							<span className="font-bold">20€</span>
+							<span className="font-medium">20€</span>
 						</div>
 					</div>
 					<div className="flex flex-col p-3 pl-0">
@@ -93,7 +93,7 @@ export default function Services() {
 						<div className="flex justify-between w-full font-light text-md md:text-lg lg:text-xl">
 							<p>Storitev</p>
 							<div className="flex-1 border border-0 border-b-2 border-dotted mb-1 mx-2"></div>
-							<span className="font-bold">25€-60€</span>
+							<span className="font-medium">25€-60€</span>
 						</div>
 					</div>
 				</div>
