@@ -18,12 +18,17 @@ export default function Services() {
 							<p>Lažja oblika</p>
 							<div className="flex-1 border border-0 border-b-2 border-dotted mb-1 mx-2"></div>
 
-							<span className="font-medium">18€</span>
+							<span className="font-medium">20€</span>
 						</div>
 						<div className="flex justify-between w-full font-light text-md md:text-lg lg:text-xl">
 							<p>Težja oblika</p>
 							<div className="flex-1 border border-0 border-b-2 border-dotted mb-1 mx-2"></div>
-							<span className="font-medium">20€</span>
+							<span className="font-medium">25€</span>
+						</div>
+						<div className="flex justify-between w-full font-light text-md md:text-lg lg:text-xl">
+							<p>Vikendi in prazniki</p>
+							<div className="flex-1 border border-0 border-b-2 border-dotted mb-1 mx-2"></div>
+							<span className="font-medium">25€</span>
 						</div>
 					</div>
 					<div className="flex flex-col p-3 pl-0">
@@ -32,7 +37,7 @@ export default function Services() {
 						<div className="flex justify-between w-full font-light text-md md:text-lg lg:text-xl">
 							<p>Storitev</p>
 							<div className="flex-1 border border-0 border-b-2 border-dotted mb-1 mx-2"></div>
-							<span className="font-medium">17€</span>
+							<span className="font-medium">20€</span>
 						</div>
 					</div>
 					<div className="flex flex-col p-3 pl-0">
@@ -41,7 +46,7 @@ export default function Services() {
 						<div className="flex justify-between w-full font-light text-md md:text-lg lg:text-xl">
 							<p>Storitev</p>
 							<div className="flex-1 border border-0 border-b-2 border-dotted mb-1 mx-2"></div>
-							<span className="font-medium">17€</span>
+							<span className="font-medium">20€</span>
 						</div>
 					</div>
 					<div className="flex flex-col p-3 pl-0">
