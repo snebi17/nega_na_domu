@@ -1,5 +1,5 @@
 /*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[11].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src\\app\\page.tsx","import":"Sarabun","arguments":[{"weight":["100","200","300","400","500","600","700","800"],"subsets":["latin"]}],"variableName":"sarabun"} ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[14].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src\\app\\page.tsx","import":"Sarabun","arguments":[{"weight":["100","200","300","400","500","600","700","800"],"subsets":["latin"]}],"variableName":"sarabun"} ***!
   \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /* thai */
 @font-face {
@@ -288,12 +288,12 @@
   font-display: swap;
   src: url(/_next/static/media/a979d3d6cbff0fe3-s.p.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}@font-face {font-family: '__Sarabun_Fallback_009c61';src: local("Arial");ascent-override: 108.87%;descent-override: 23.65%;line-gap-override: 0.00%;size-adjust: 98.10%
+}@font-face {font-family: '__Sarabun_Fallback_009c61';src: local("Arial");ascent-override: 109.45%;descent-override: 23.78%;line-gap-override: 0.00%;size-adjust: 97.58%
 }.__className_009c61 {font-family: '__Sarabun_009c61', '__Sarabun_Fallback_009c61';font-style: normal
 }
 
 /*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[11].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src\\app\\page.tsx","import":"Playfair_Display","arguments":[{"subsets":["latin"]}],"variableName":"playfair"} ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[14].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src\\app\\page.tsx","import":"Playfair_Display","arguments":[{"subsets":["latin"]}],"variableName":"playfair"} ***!
   \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /* cyrillic */
 @font-face {
@@ -330,12 +330,12 @@
   font-display: swap;
   src: url(/_next/static/media/eaead17c7dbfcd5d-s.p.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}@font-face {font-family: '__Playfair_Display_Fallback_0a80b4';src: local("Times New Roman");ascent-override: 96.37%;descent-override: 22.36%;line-gap-override: 0.00%;size-adjust: 112.28%
+}@font-face {font-family: '__Playfair_Display_Fallback_0a80b4';src: local("Times New Roman");ascent-override: 97.25%;descent-override: 22.56%;line-gap-override: 0.00%;size-adjust: 111.26%
 }.__className_0a80b4 {font-family: '__Playfair_Display_0a80b4', '__Playfair_Display_Fallback_0a80b4';font-style: normal
 }
 
 /*!****************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./node_modules/swiper/swiper.css ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./node_modules/swiper/swiper.css ***!
   \****************************************************************************************************************************************************************************************************************************************************************************/
 /**
  * Swiper 11.0.5
@@ -566,7 +566,7 @@
 /* Slide styles end */
 
 /*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./node_modules/swiper/modules/navigation.css ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./node_modules/swiper/modules/navigation.css ***!
   \****************************************************************************************************************************************************************************************************************************************************************************************/
 :root {
   --swiper-navigation-size: 44px;
@@ -657,7 +657,7 @@
 /* Navigation font end */
 
 /*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./node_modules/swiper/modules/pagination.css ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./node_modules/swiper/modules/pagination.css ***!
   \****************************************************************************************************************************************************************************************************************************************************************************************/
 :root {
   /*
@@ -846,6 +846,6 @@ button.swiper-pagination-bullet {
 }
 
 /*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./node_modules/swiper/modules/effect-coverflow.css ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./node_modules/swiper/modules/effect-coverflow.css ***!
   \**********************************************************************************************************************************************************************************************************************************************************************************************/
 

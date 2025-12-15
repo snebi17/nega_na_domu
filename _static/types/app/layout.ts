@@ -1,4 +1,4 @@
-// File: C:\Users\Nejc\Documents\Work\nega_na_domu\src\app\layout.tsx
+// File: C:\Users\nejcs\Documents\work\nega_na_domu\src\app\layout.tsx
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
